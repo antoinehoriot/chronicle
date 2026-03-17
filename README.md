@@ -22,7 +22,7 @@ Claude Code hooks → chronicle daemon → SQLite → TUI dashboard
 ### From source
 
 ```bash
-git clone https://github.com/your-org/chronicle.git
+git clone https://github.com/antoinehoriot/chronicle.git
 cd chronicle
 cargo build --release
 ```
