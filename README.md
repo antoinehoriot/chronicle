@@ -23,6 +23,12 @@ Claude Code hooks → chronicle daemon → SQLite → TUI dashboard
 
 ## Installation
 
+### From crates.io
+
+```bash
+cargo install chronicle-cli
+```
+
 ### From source
 
 ```bash

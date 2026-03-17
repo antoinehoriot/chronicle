@@ -1,7 +1,22 @@
 [package]
-name = "chronicle"
+name = "chronicle-cli"
 version = "0.1.0"
 edition = "2021"
+description = "Record and replay Claude Code sessions — TUI dashboard with time-travel file restoration"
+license = "MIT"
+repository = "https://github.com/antoinehoriot/chronicle"
+homepage = "https://github.com/antoinehoriot/chronicle"
+keywords = ["claude", "claude-code", "session-recorder", "tui", "developer-tools"]
+categories = ["command-line-utilities", "development-tools"]
+readme = "README.md"
+
+[lib]
+name = "chronicle"
+path = "src/lib.rs"
+
+[[bin]]
+name = "chronicle"
+path = "src/main.rs"
 
 [dependencies]
 clap = { version = "4", features = ["derive"] }
