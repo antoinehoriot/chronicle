@@ -1,3 +1,4 @@
 .chronicle/
 target/
 docs/
+.DS_Store
