@@ -54,7 +54,13 @@ This will:
 3. Start the chronicle daemon in the background
 4. Add `.chronicle/` to `.gitignore`
 
-Now use Claude Code normally. Every action is recorded automatically.
+Then start Claude Code in the same directory:
+
+```bash
+claude
+```
+
+Every action is now recorded automatically.
 
 ```bash
 # Open the TUI dashboard
