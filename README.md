@@ -2,6 +2,10 @@
 
 A Rust CLI that hooks into [Claude Code](https://claude.ai/code) to record every agent action, with a ratatui TUI dashboard for session replay, time-travel debugging, and file restoration.
 
+https://github.com/user-attachments/assets/eec01413-85d0-4a69-b1f4-41147cb5d2de
+
+> **Note:** This demo shows a simple restore — a use case already covered by Claude Code's built-in `/rewind` command. The difference is that `/rewind` only restores between prompts, while Chronicle lets you restore to *any* point within a session, including between individual tool calls within a single prompt.
+
 ## What it does
 
 Chronicle captures every tool call Claude Code makes — every file edit, bash command, read, grep, and more — storing them in a local SQLite database with compressed file snapshots. You can then browse the full session timeline, inspect diffs, and restore your codebase to any point in time.
